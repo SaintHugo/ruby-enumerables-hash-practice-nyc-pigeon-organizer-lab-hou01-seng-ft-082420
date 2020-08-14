@@ -8,6 +8,7 @@ data.each_with_object({}) do |(key, value), new_array|
         final_array[name] = {}
       end
 
+    end
   end
   final_array
 end
