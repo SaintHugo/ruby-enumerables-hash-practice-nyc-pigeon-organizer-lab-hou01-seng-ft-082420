@@ -10,7 +10,7 @@ results = data.each_with_object({}) do |(key, value), new_array|
    if !new_array[name][key]
      !new_array[name][key] = []
     end
-  new_array[name][key].push(subkey)
+  new_array[name][key].push(subkey.to_s)
   end
 end
 end
