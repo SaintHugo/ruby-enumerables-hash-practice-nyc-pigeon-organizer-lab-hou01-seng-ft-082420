@@ -12,6 +12,7 @@ results = data.each_with_object({}) do |(key, value), new_array|
     end
   new_array[name][key].push(subkey)
   end
+end
   new_array
 end
 end
