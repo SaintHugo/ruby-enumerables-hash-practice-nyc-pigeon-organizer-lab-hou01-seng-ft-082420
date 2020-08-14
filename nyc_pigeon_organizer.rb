@@ -16,5 +16,3 @@ end
   new_array
 end
 end
-end
-end
