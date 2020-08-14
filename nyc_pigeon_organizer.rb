@@ -7,7 +7,8 @@ data.each_with_object({}) do |(key, value), new_array|
       if !new_array[name]
         final_array[name] = {}
       end
-
+if !array[name][key]
+  final_array[name] = {}
     end
   end
   final_array
